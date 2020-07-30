@@ -2,6 +2,13 @@
   "manifest_version": 2,
 
   "name": "Save As PDF Right Click Menu Item",
+  "description": "Add a button to the right click context menu to save the current page as PDF.",
   "version": "0.1",
-  "author": "Jacob Strieb"
+  "author": "Jacob Strieb",
+
+  "permissions": [ "menus" ],
+
+  "background": {
+    "scripts": [ "background.js" ]
+  }
 }
